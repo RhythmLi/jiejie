@@ -1,0 +1,68 @@
+#banner{
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background: url("../images/wbBg.png") center top no-repeat;
+    background-size: auto 350px;
+}
+.wb-build{
+    height: 460px;
+    background: #F5F5F5;
+}
+.wb-build .banxin{
+    height: 100%;
+    background: url("../images/wb-img1.png") no-repeat 600px 36px;
+
+}
+.wb-build h1{
+    padding: 80px 0 26px 66px;
+    font-size: 30px;
+    color: #333;
+}
+.wb-build p{
+    padding-left: 66px;
+    width: 484px;
+    font-size: 16px;
+    color: #656565;
+}
+.wb-servicce,.wb-process{
+    height: 500px;
+}
+.wb-servicce .banxin ,.wb-process .banxin{
+    height: 100%;
+    text-align: center;
+}
+.wb-servicce .banxin>h1,.wb-process .banxin>h1{
+    font-size: 34px;
+    padding-top: 44px;
+}
+.wb-servicce span,.wb-process span{
+    display: block;
+    margin: 25px 0 30px;
+    font-size: 12px;
+    color: #878787;
+}
+
+.wb-servicce ul{
+    margin:0 54px;
+}
+.wb-servicce ul li{
+    float: left;
+    width: 364px;
+    padding: 0 24px;
+    text-align: center;
+}
+.wb-servicce ul li img{
+
+}
+.wb-servicce ul li h1{
+    line-height: 34px;
+    font-size: 26px;
+    margin: 23px 0 20px;
+}
+.wb-servicce ul li p{
+    font-size: 14px;
+    color: #656565;
+    text-align: left;
+    line-height: 30px;
+}

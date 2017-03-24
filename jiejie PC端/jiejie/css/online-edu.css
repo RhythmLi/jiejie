@@ -1,0 +1,88 @@
+#banner{
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background: url("../images/online-eduBg.png") center top no-repeat;
+    background-size: auto 350px;
+}
+.edu-build{
+    height: 460px;
+    background: #F5F5F5;
+}
+.edu-build .banxin{
+    height: 100%;
+    background: url("../images/onlineedu.png") no-repeat 408px 55px;
+}
+.edu-build h1{
+    padding: 80px 0 26px 66px;
+    font-size: 30px;
+    color: #333;
+}
+.edu-build p{
+    padding-left: 66px;
+    width: 408px;
+    font-size: 16px;
+    color: #656565;
+}
+.edu-core{
+    /*height: 654px;*/
+}
+.edu-core .banxin{
+    height: 100%;
+    text-align: center;
+}
+.edu-core .banxin>h1{
+    font-size: 34px;
+    padding-top: 48px;
+}
+.edu-core span{
+    display: block;
+    margin: 25px 0 30px;
+    font-size: 12px;
+    color: #878787;
+}
+.edu-core .banxin>h3{
+    font-size: 26px;
+    color: #999999;
+}
+.edu-core .banxin>p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999999;
+}
+.edu-core ul{
+    margin:58px 15px 0;
+}
+.edu-core ul li{
+    float: left;
+    width: 175px;
+    margin:0 10px;
+    text-align: center;
+    background: #191919;
+}
+.edu-core ul li .edu{
+    width: 175px;
+    height: 60px;
+    background: #00DFB9;
+}
+.edu-core ul li .edu img{
+    margin-top: 7px;
+}
+.edu-core ul li .des{
+    text-align: center;
+    padding-bottom: 9px;
+
+}
+.edu-core ul li .des h3{
+    margin: 23px 0 15px;
+    font-size: 20px;
+    color: #333333;
+
+}
+.edu-core ul li .des p{
+    font-size: 14px;
+    color: #999999;
+    line-height: 29px;
+
+}
+

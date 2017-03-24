@@ -1,0 +1,52 @@
+
+.banxin{
+    width: 1200px;
+    margin: 0 auto;
+}
+#banner{
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background: url("../images/new.jpg") center top no-repeat;
+    background-size: auto 350px;
+}
+
+#banner .wenzi{
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    top: 50%;
+    margin-top: -55px;
+    text-align: center;
+
+}
+#banner  h1{
+    color: #fff;
+    font-size: 42px;
+
+}
+#banner p{
+    color: #c6c6c6;
+    font-size: 30px;
+}
+/*主体部分============*/
+.main{
+    text-align: center;
+}
+.main .caption{
+    height: 200px;
+}
+.main h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    padding-top:80px;
+}
+.main span{
+    font-size: 12px;
+    color: #999;
+}
+.main p{
+    text-align: left;
+    padding:40px  70px 40px 70px;
+}

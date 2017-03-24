@@ -1,0 +1,67 @@
+#banner{
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background: url("../images/ratailBg.png") center top no-repeat;
+    background-size: auto 350px;
+}
+.ratial-project{
+    height: 460px;
+    background: #F5F5F5;
+}
+.ratial-project .banxin{
+    height: 100%;
+    background: url("../images/retail-process.png") no-repeat 630px 60px;
+
+}
+.ratial-project h1{
+    padding: 80px 0 26px 66px;
+    font-size: 30px;
+    color: #333;
+}
+.ratial-project p{
+    padding-left: 66px;
+    width: 548px;
+    font-size: 16px;
+    color: #656565;
+    line-height: 30px;
+}
+.ratial-core{
+    height: 576px;
+}
+.ratial-core .banxin{
+    height: 100%;
+    text-align: center;
+}
+.ratial-core .banxin>h1{
+    font-size: 34px;
+    padding-top: 44px;
+}
+.ratial-core span{
+    display: block;
+    margin: 25px 0 30px;
+    font-size: 12px;
+    color: #878787;
+}
+
+.ratial-core ul{
+    margin:0 54px;
+}
+.ratial-core ul li{
+    float: left;
+    width: 364px;
+    padding: 0 24px;
+    text-align: center;
+}
+.ratial-core ul li h1{
+    line-height: 34px;
+    font-size: 26px;
+    margin: 23px 0 20px;
+    color: #656565;
+}
+.ratial-core ul li p{
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    line-height: 30px;
+}

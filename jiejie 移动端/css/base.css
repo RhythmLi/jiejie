@@ -1,0 +1,230 @@
+/*reset css */
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: "MicroSoft YaHei","sans-serif";
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration:underline;
+}
+input,textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+}
+/*common css */
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.clearfix::after,
+.clearfix::before{
+    content: ".";
+    line-height: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+
+
+/*公共样式*/
+html,
+body {
+    height: 100%;
+}
+html {
+    font-size: 75px;
+}
+.jj_layout {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+header {
+    height: 1.70666667rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+header .header_box {
+    background: rgba(201, 21, 35, 0);
+    height: 1.70666667rem;
+    position: relative;
+    margin: 0 0.4rem;
+}
+header .header_box a {
+    display: block;
+    width: 1.06666667rem;
+    height: 1.06666667rem;
+}
+header .header_box .logo {
+    position: absolute;
+    top: 0.32rem;
+    left: 0;
+    width: 3.86666667rem;
+    background: url("../images/logo.png") center no-repeat;
+    -webkit-background-size: 3.86666667rem;
+    background-size: 3.86666667rem;
+    z-index: 999;
+}
+header .header_box .phone {
+    position: absolute;
+    top: 0.32rem;
+    right: 1.33333333rem;
+    z-index: 999;
+}
+header .header_box .phone img {
+    width: 1.06666667rem;
+    height: 1.06666667rem;
+}
+header .header_box .directory {
+    position: absolute;
+    top: 0.32rem;
+    right: 0;
+    z-index: 999;
+}
+header .header_box .directory img {
+    width: 1.06666667rem;
+    height: 1.06666667rem;
+}
+.phoneBox {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.phoneBox .call {
+    width: 7.46666667rem;
+    height: 3.2rem;
+    border-radius: 0.13333333rem;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -1.6rem;
+    margin-left: -3.73333333rem;
+}
+.phoneBox .call p {
+    font-size: 0.48rem;
+    font-weight: 700;
+    line-height: 1.86666667rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.phoneBox .call span,
+.phoneBox .call a {
+    line-height: 1.33333333rem;
+    display: block;
+    font-size: 0.45333333rem;
+    height: 1.33333333rem;
+    width: 3.72rem;
+    float: left;
+    text-align: center;
+}
+.phoneBox .call span {
+    border-right: 1px solid #ccc;
+}
+.phoneBox .call a {
+    color: #00dfb9;
+}
+.phoneBox .call a:active {
+    text-decoration: none;
+}
+.dirBox {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 1.69333333rem;
+    left: 0;
+    display: none;
+    width: 100%;
+}
+.dirBox .dirList ul li {
+    padding-left: 0.8rem;
+    border-bottom: 1px solid #4c4c4c;
+}
+.dirBox .dirList ul li a {
+    height: 1.52rem;
+    font-size: 0.45333333rem;
+    line-height: 1.52rem;
+    color: #fff;
+}
+.dirBox .dirList ul li a:hover {
+    color: #00dfb9;
+}
+.dirBox .dirList ul li:last-child {
+    border: none;
+}
+footer {
+    height: 100%;
+    background: #f5f5f5;
+    position: relative;
+}
+footer .contact {
+    width: 7.84rem;
+    margin: 0 auto;
+    padding-top: 2.66666667rem;
+}
+footer .contact p {
+    font-size: 0.37333333rem;
+    color: #666;
+}
+footer .contact p:first-child {
+    font-family: Arial;
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: #ff3917;
+}
+footer .contact p:nth-child(2) {
+    margin: 0.4rem 0;
+}
+footer .contact .erweima i {
+    display: block;
+    width: 4.06666667rem;
+    height: 4.06666667rem;
+    background: url("../images/erweima.png") no-repeat;
+    -webkit-background-size: 4.06666667rem;
+    background-size: 4.06666667rem;
+    margin: 0.8rem 0 0 1.73333333rem;
+}
+footer .copyright {
+    width: 100%;
+    height: 2.4rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: #232323;
+}
+footer .copyright p {
+    font-size: 0.32rem;
+    color: #7b7b7b;
+    margin-top: 0.26666667rem;
+}
+footer .copyright p:first-child {
+    margin-top: 0.53333333rem;
+}

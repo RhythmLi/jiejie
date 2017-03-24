@@ -1,0 +1,165 @@
+
+/*wedo部分公共样式*/
+#banner{
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.wb-build,.ratial-project,.edu-solution{
+    height: 460px;
+    background: #F5F5F5;
+}
+.wb-build h1,.ratial-project h1,.edu-solution h1{
+    padding: 80px 0 26px 66px;
+    font-size: 30px;
+    color: #333;
+}
+.wb-build p,.ratial-project p,.edu-solution p{
+    padding-left: 66px;
+    font-size: 16px;
+    color: #656565;
+    line-height: 30px;
+}
+.wb-servicce .banxin ,.wb-process .banxin,.ratial-core .banxin,.edu-core .banxin{
+    height: 100%;
+    text-align: center;
+}
+.wb-servicce .banxin>h1,.wb-process .banxin>h1,.ratial-core .banxin>h1,.edu-core .banxin>h1{
+    font-size: 34px;
+    padding-top: 48px;
+}
+.wb-servicce span,.wb-process span, .ratial-core span, .edu-core span{
+    display: block;
+    margin: 25px 0 30px;
+    font-size: 12px;
+    color: #878787;
+}
+
+/*网站建设*/
+.wb-banner{
+    background: url("../images/wbBg.png") center top no-repeat;
+    background-size: auto 350px;
+}
+.wb-build .banxin{
+    height: 100%;
+    background: url("../images/wb-img1.png") no-repeat 600px 36px;
+}
+.wb-build p{
+    width: 484px;
+}
+.wb-servicce,.wb-process{
+    height: 500px;
+}
+.wb-servicce ul{
+    margin:0 54px;
+}
+.wb-servicce ul li{
+    float: left;
+    width: 364px;
+    padding: 0 24px;
+    text-align: center;
+}
+.wb-servicce ul li h1{
+    line-height: 34px;
+    font-size: 26px;
+    margin: 23px 0 20px;
+}
+.wb-servicce ul li p{
+    font-size: 14px;
+    color: #656565;
+    text-align: left;
+    line-height: 30px;
+}
+
+/*新零售*/
+.retail-banner{
+    background: url("../images/ratailBg.png") center top no-repeat;
+    background-size: auto 350px;
+}
+.ratial-project .banxin{
+    height: 100%;
+    background: url("../images/retail-process.png") no-repeat 630px 60px;
+}
+.ratial-project p{
+    width: 548px;
+}
+.ratial-core{
+    height: 576px;
+}
+.ratial-core ul{
+    margin:0 54px;
+}
+.ratial-core ul li{
+    float: left;
+    width: 364px;
+    padding: 0 24px;
+    text-align: center;
+}
+.ratial-core ul li h1{
+    line-height: 34px;
+    font-size: 26px;
+    margin: 23px 0 20px;
+    color: #656565;
+}
+.ratial-core ul li p{
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    line-height: 30px;
+}
+
+/*在线教育*/
+.edu-banner{
+    background: url("../images/online-eduBg.png") center top no-repeat;
+    background-size: auto 350px;
+}
+.edu-solution .banxin{
+    height: 100%;
+    background: url("../images/onlineedu.png") no-repeat 408px 55px;
+}
+.edu-solution p{
+    width: 408px;
+}
+.edu-core .banxin>h3{
+    font-size: 26px;
+    color: #999999;
+}
+.edu-core .banxin>p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999999;
+}
+.edu-core ul{
+    margin:58px 15px 0;
+}
+.edu-core ul li{
+    float: left;
+    width: 175px;
+    margin:0 10px;
+    text-align: center;
+    background: #191919;
+}
+.edu-core ul li .edu{
+    width: 175px;
+    height: 60px;
+    background: #00DFB9;
+}
+.edu-core ul li .edu img{
+    margin-top: 7px;
+}
+.edu-core ul li .des{
+    text-align: center;
+    padding-bottom: 9px;
+}
+.edu-core ul li .des h3{
+    margin: 23px 0 15px;
+    font-size: 20px;
+    color: #333333;
+}
+.edu-core ul li .des p{
+    font-size: 14px;
+    color: #999999;
+    line-height: 29px;
+
+}
+
